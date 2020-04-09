@@ -27,7 +27,7 @@ exports.handler = (event, context, callback) => {
     return;
   }
 
-  const sheets = ["Confirmed", "Recovered", "Deaths"];
+  const sheets = ["confirmed", "recovered", "deaths"];
 
   const sheetQueries = sheets.map((sheetName) => {
     return fetch(
