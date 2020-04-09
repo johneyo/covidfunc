@@ -4,12 +4,13 @@
  * SPDX-License-Identifier: MIT
  */
 
-const spaceId = "INSERT_HERE_STUDIO_SPACE_ID"
-const accessToken = "INSERT_HERE_ACCESS_TOKEN"
-const secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+const spaceId = "LxbFuD3a";
+const accessToken = "h6luXiD0RHW-t4lmCJj7uA";
+const secret =
+  "uAYymzhmoqz5CiZRh3R8_ZFieLE91cSMSZ57YcN6XnRIP00zybsCKNuorrAuC2RdxHziDLT8rVqIiIqQK2Zolg";
 
 module.exports = {
   spaceId,
   accessToken,
   secret,
-}
+};
