@@ -3794,10 +3794,10 @@ module.exports = safer
  * SPDX-License-Identifier: MIT
  */
 
-const spaceId = "LxbFuD3a";
-const accessToken = "h6luXiD0RHW-t4lmCJj7uA";
+const spaceId = "YWwDlziw";
+const accessToken = "AIK7XUPmRoiCdkkiTBnkEQA";
 const secret =
-  "uAYymzhmoqz5CiZRh3R8_ZFieLE91cSMSZ57YcN6XnRIP00zybsCKNuorrAuC2RdxHziDLT8rVqIiIqQK2Zolg";
+  "bM_j2n6vMp-2qOV5LZ0BFwBt3v_a4YeQWBAG_7KQxr6j-Jfj0nQ0GtNLHG5nIwT-ssgNmgCRp1MeviKmFKQ-IQ";
 
 module.exports = {
   spaceId,
@@ -4363,7 +4363,7 @@ exports.handler = (event, context, callback) => {
     return;
   }
 
-  const sheets = ["Confirmed", "Recovered", "Deaths"];
+  const sheets = ["confirmed", "recovered", "deaths"];
 
   const sheetQueries = sheets.map((sheetName) => {
     return fetch(
